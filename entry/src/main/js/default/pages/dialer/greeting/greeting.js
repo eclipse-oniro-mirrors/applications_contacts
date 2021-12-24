@@ -14,6 +14,7 @@
  */
 import router from '@system.router';
 import prompt from '@system.prompt';
+import featureAbility from '@ohos.ability.featureAbility';
 import LOG from '../../../utils/ContactsLog.js';
 import Constants from '../../../common/constants/Constants.js';
 import greetingService from '../../../../default/model/GreetingModel.js';
@@ -104,15 +105,15 @@ export default {
         this.greetingName = e.value;
     },
 
-    saveGreetingFile() {
-        //把保存文件名和应答语名称传给后台
+    async saveGreetingFile() {
         this.$element('confirmAddGreeting').close();
-        //调用后台接口保存
-        var voiceMailUri = 'file:///data/accounts/account_0/appdata/com.telephony.demo.call/files/audioRecord.mp4';
+        let context = featureAbility.getContext();
+        let path = await context.getFilesDir();
+        var voiceMailUri = path + '/audioRecord.mp4';
         var data = {
             'name': this.greetingName,
             'voiceMailUri': voiceMailUri
-        }
+        };
         var DAHelper = this.$app.$def.getDAHelper(Constants.uri.VOICEMAIL_DB_URI);
         greetingService.insertGreeting(DAHelper, data, resultId => {
             if (resultId > 0) {

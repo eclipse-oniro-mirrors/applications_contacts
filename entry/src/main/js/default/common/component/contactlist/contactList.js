@@ -18,7 +18,7 @@ export default {
     data: {
         layoutState: true,
     },
-    onInit(){
+    onInit() {
         this.conciseLayoutInit();
     },
 /* 批量删除选中的通话记录 */
@@ -33,17 +33,17 @@ export default {
 // 简洁布局选项初始化
     conciseLayoutInit: function () {
         let data = this.$app.$def.globalData.storage.getSync('contacts_settings_concise_layout_switch', 'false');
-        this.layoutState = data == 'true'? false : true;
+        this.layoutState = data === 'true' ? false : true;
     },
 /* 取消删除 */
     cancelDialog() {
         this.$element('deleteCheckDialog').close();
     },
-    listItemTouchStartSearch(index, indexChild){
+    listItemTouchStartSearch(index, indexChild) {
         this.listItemTouchStart(index, indexChild);
     },
     listItemTouchStart(index, indexChild) {
-        if (this.selectType == 'batchSelect') { // 批量选择联系人界面
+        if (this.selectType === 'batchSelect') { // 批量选择联系人界面
             this.$emit('checkChange', {
                 contactIndex: index,
                 numberIndex: indexChild,
@@ -61,7 +61,7 @@ export default {
     editContacts(index) {
         this.$emit('contactsSelected', {
             contacts: this.contactList[index]
-        })
+        });
     },
     requestItem() {
         // 数据缓存刷新
@@ -74,4 +74,4 @@ export default {
             checked: event.checked
         });
     }
-}
+};

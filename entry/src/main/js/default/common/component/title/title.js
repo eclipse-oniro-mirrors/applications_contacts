@@ -1,4 +1,7 @@
 /**
+ * @file title
+ */
+/**
  * Copyright (c) 2021 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the 'License');
  * you may not use this file except in compliance with the License.
@@ -14,11 +17,11 @@
  */
 export default {
 
-    props:['titleName','titleType','showTitle'],
+    props: ['titleName', 'titleType', 'showTitle'],
     data: {
         titleSmall: 'page-title-box-small',
         titleBig: 'page-title-box',
-        titleTextBig:'page-title-text',
-        titleTextSmall:'page-title-text-small',
+        titleTextBig: 'page-title-text',
+        titleTextSmall: 'page-title-text-small',
     },
-}
+};

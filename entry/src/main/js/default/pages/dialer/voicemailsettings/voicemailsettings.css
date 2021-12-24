@@ -149,7 +149,7 @@
 .content-edit-image-box:active {
     background-color: lightgray;
 }
-.dialog-input-active{
+.dialog-input-active {
     width: 85%;
     background-color: transparent;
     border-bottom: 1px solid #4e4e4e;
@@ -163,7 +163,7 @@
     width: 85%;
     align-items: center;
 }
-.content-provider{
+.content-text {
     width: 100%;
 }
 .inner-btn {

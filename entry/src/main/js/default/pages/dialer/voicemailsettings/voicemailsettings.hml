@@ -72,7 +72,7 @@
             </div>
             <div class="content-edit">
                 <div class="content-item">
-                    <text class="content-provider" >{{$t('value.callRecords.myProvider')}}</text>
+                    <text class="content-text" >{{$t('value.callRecords.myProvider')}}</text>
                     <input type="radio" name="serviceProvider" value="myProvider"  checked="true" ></input>
                 </div>
             </div>

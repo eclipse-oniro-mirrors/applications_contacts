@@ -59,17 +59,17 @@
                <filteritem type="filepath" name="entry/src/main/js/default/res/image/.*.jpg" desc="self developed image"/>
                <filteritem type="filepath" name="entry/src/main/js/default/res/image/.*.svg" desc="self developed image"/>
 			   <filteritem type="filepath" name="entry/src/main/resources/base/media/.*.png" desc="self developed image"/>
-			   <filteritem type="filepath" name="doc/image/.*.png" desc="self developed image"/>
-               <filteritem type="filepath" name="keyStore/OpenHarmony.p12" desc="self developed image"/>
-               <filteritem type="filepath" name="keyStore/material/ac/b43ed42daef74dc296635797308b02ff" desc="self developed image"/>
-               <filteritem type="filepath" name="keyStore/material/ce/e08a4df3af474966976ac6d8378b8360" desc="sself developed image"/>
-               <filteritem type="filepath" name="keyStore/material/fd/0/6bc5d4335e124d2c97d6468033509997" desc="self developed image"/>
-               <filteritem type="filepath" name="keyStore/material/ce/e08a4df3af474966976ac6d8378b8360" desc="self developed image"/>
-               <filteritem type="filepath" name="entry/src/main/js/default/base/base_color.scss" desc="self developed image"/>
                <filteritem type="filepath" name="entry/src/ohosTest/resources/base/media/.*.png" desc="self developed image"/>
-               <filteritem type="filepath" name="keyStore/material/fd/1/4ca3e0561d2146ca9615636b35b53070" desc="self developed image"/>
-               <filteritem type="filepath" name="keyStore/material/fd/2/14b356583625411a9a76097ea6ced6c2" desc="self developed image"/>
-               <filteritem type="filepath" name="gradle/wrapper/gradle-wrapper.jar" desc="self developed image"/>
+			   <filteritem type="filepath" name="doc/image/.*.png" desc="self developed image"/>
+               <filteritem type="filepath" name="keyStore/OpenHarmony.p12" desc="signature p12"/>
+               <filteritem type="filepath" name="keyStore/material/ac/b43ed42daef74dc296635797308b02ff" desc="signature material info"/>
+               <filteritem type="filepath" name="keyStore/material/ce/e08a4df3af474966976ac6d8378b8360" desc="signature material info"/>
+               <filteritem type="filepath" name="keyStore/material/fd/0/6bc5d4335e124d2c97d6468033509997" desc="signature material info"/>
+               <filteritem type="filepath" name="keyStore/material/ce/e08a4df3af474966976ac6d8378b8360" desc="signature material info"/>
+               <filteritem type="filepath" name="entry/src/main/js/default/base/base_color.scss" desc="color scss"/>
+               <filteritem type="filepath" name="keyStore/material/fd/1/4ca3e0561d2146ca9615636b35b53070" desc="signature material info"/>
+               <filteritem type="filepath" name="keyStore/material/fd/2/14b356583625411a9a76097ea6ced6c2" desc="signature material info"/>
+               <filteritem type="filepath" name="gradle/wrapper/gradle-wrapper.jar" desc="gradle jar"/>
 			</filefilter>
 		</filefilterlist>
     </oatconfig>

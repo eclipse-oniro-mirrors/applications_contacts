@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import data_storage from '@ohos.data.storage';
+import dataStorage from '@ohos.data.storage';
 import call from '@ohos.telephony.call';
 import file from '@system.file';
 import featureAbility from '@ohos.ability.featureAbility';
@@ -23,14 +23,18 @@ export default {
     featureAbility: featureAbility,
     onCreate() {
         LOG.info(TAG + 'AceApplication onCreate');
-        this.globalData.storage = data_storage.getStorageSync(this.globalData.path);
+        this.initDataStorage();
     },
     onDestroy() {
     },
-
+    async initDataStorage() {
+        let context = featureAbility.getContext();
+        let path = await context.getFilesDir();
+        this.globalData.storage = dataStorage.getStorageSync(path + this.globalData.path);
+    },
     globalData: {
         file: file,
-        path: '/data/accounts/account_0/appdata/com.ohos.contacts/database/PREFERENCES_FOR_CONTACTS',
+        path: '/PREFERENCES_FOR_CONTACTS',
         storage: '',
         addAccount: false,
         editContacts: false,

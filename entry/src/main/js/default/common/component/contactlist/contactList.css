@@ -1,4 +1,18 @@
-.list-div-group{
+/**
+ * Copyright (c) 2021 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.list-div-group {
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -27,8 +41,8 @@
     padding-bottom: 20px;
     flex-direction: row;
 }
-.list-item-body-group:active{
-   background-color: lightgray;
+.list-item-body-group:active {
+    background-color: #d3d3d3;
 }
 
 /*头像文字父容器*/
@@ -46,7 +60,7 @@
     allow-scale: true;
     font-size: 38px;
     font-weight: 600;
-    color: white;
+    color: #fff;
 }
 /*默认头像*/
 .child-image-default {
@@ -90,7 +104,7 @@
     text-overflow: ellipsis;
 }
 /*姓名父容器*/
-.list-item-name-search-group{
+.list-item-name-search-group {
     width: 100%;
     height: 40px;
     justify-content: flex-start;
@@ -121,7 +135,7 @@
 /*默认电话样式*/
 .list-item-body-phone-group {
     flex-direction: row;
-    background-color: red;
+    background-color: #ff0000;
     flex-shrink: 1;
 }
 /*默认显示电话*/
@@ -137,15 +151,13 @@
     flex-direction: column;
     justify-content: center;
 }
-.list-child-phone-group:active{
+.list-child-phone-group:active {
     background-color: lightgray;
 }
 /*电话列表容器*/
 .list-child-phone-item {
     padding-left: 135px;
     width: 100%;
-    left: 0px;
-    bottom: 0px;
     flex-direction: column;
 }
 
@@ -153,12 +165,10 @@
 .list-child-phone-item1 {
     padding-left: 50px;
     width: 100%;
-    left: 0px;
-    bottom: 0px;
     flex-direction: column;
 }
-.list-child-phone-item:active{
-   background-color: lightgray;
+.list-child-phone-item:active {
+    background-color: lightgray;
 }
 /*分割线*/
 .list-child-phone-line-group {
@@ -176,7 +186,7 @@
 .list-group-line {
     stroke-width: 1px;
     line-cap: round;
-    color: #cccccc;
+    color: #ccc;
     width: 520px;
     justify-content: flex-end;
     align-items: flex-end;
@@ -185,7 +195,7 @@
 .list-group-line1 {
     stroke-width: 1px;
     line-cap: round;
-    color: #cccccc;
+    color: #ccc;
     width: 100%;
     margin-left: 50px;
     justify-content: flex-end;
@@ -196,7 +206,7 @@
 .list-child-phone-line {
     stroke-width: 1px;
     line-cap: round;
-    color: #cccccc;
+    color: #ccc;
 }
 /*电话父容器*/
 .list-child-phone-number-group {
@@ -289,7 +299,7 @@
     text-align: left;
     font-size: 24px;
     align-items: center;
-    color: darkgray;
+    color: #a9a9a9;
 }
 
 /*搜索结果列表容器*/
@@ -305,10 +315,10 @@
     margin-right: 50px;
     align-items: center;
 }
-.input-type-group1{
+.input-type-group1 {
     width: 100px;
     height: 100px;
-    margin-left:20px;
+    margin-left: 20px;
     align-items: center;
 }
 .input-type {
@@ -316,38 +326,36 @@
     height: 80px;
     margin-left: 18px;
 }
-.input-number-type{
+.input-number-type {
     margin-right: 65px;
     height: 80px;
     width: 80px;
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 0px;
 }
-.input-number-type1{
+.input-number-type1 {
     margin-right: 50px;
     height: 80px;
     width: 80px;
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 0px;
 }
 /*内容布局*/
-.list-item-body-content{
+.list-item-body-content {
     align-items: center;
     flex-shrink: 1;
     flex-direction: row;
 }
 
 /*内容布局*/
-.list-item-body-name-phone{
+.list-item-body-name-phone {
     flex-direction: column;
     width: 430px;
 }
 /*内容布局*/
-.list-item-body-name-phone1{
+.list-item-body-name-phone1 {
     flex-direction: column;
     width: 520px;
     margin-left: 50px;
@@ -359,7 +367,7 @@
     font-size: 38px;
     allow-scale: true;
     font-weight: 600;
-    color: white;
+    color: #fff;
 }
 .todo-item-content-div {
     width: 100%;
