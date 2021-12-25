@@ -1,0 +1,43 @@
+<!--/*
+* Copyright (c) 2021 Huawei Device Co., Ltd.
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/-->
+<div class="container">
+    <text style="font-size: 100px;" >HelloWorld</text>
+    <!--<button type="capsule" class="test-button" value="测试Insert" onclick="testInsert"></button>
+    <button type="capsule" class="test-button" value="测试query" onclick="testQuery"></button>
+    <button type="capsule" class="test-button" value="测试update" onclick="testUpdate"></button>
+    <button type="capsule" class="test-button" value="测试delete" onclick="testDelete"></button>-->
+<!--    <button type="capsule" class="test-button" value="testCallLogByPhoneNumbers" onclick="testCallLogByPhoneNumbers"></button>-->
+<!--    <button type="capsule" class="test-button" value="测试新建联系人" onclick="testAddContact"></button>-->
+    <button type="capsule" class="test-button" value="测试通话记录插入" onclick="testInsertCallLog"></button>
+    <button type="capsule" class="test-button" value="测试语音信箱插入" onclick="testInsertVoiceMail"></button>
+<!--    <button type="capsule" class="test-button" value="获取默认卡槽" onclick="testGetDefaultSimSlot"></button>-->
+<!--    <button type="capsule" class="test-button" value="测试通话记录查询" onclick="testQueryCallLog"></button>-->
+<!--    <button type="capsule" class="test-button" value="编辑联系人" onclick="testUpdateContact"></button>-->
+<!--    <button type="capsule" class="test-button" value="拨打电话" onclick="testCall"></button>-->
+<!--    <button type="capsule" class="test-button" value="添加群组" onclick="addGroups"></button>-->
+<!--    <button type="capsule" class="test-button" value="查询群组" onclick="queryGroups"></button>-->
+<!--    <button type="capsule" class="test-button" value="发送通知消息" onclick="testNotification"></button>-->
+<!--    <button type="capsule" class="test-button" value="测试取消订阅" onclick="unSubscribeMissedCallsEvent"></button>-->
+<!--    <dialog class="dialog-class" id="myDialog">-->
+<!--        <text style="font-size: 50px;">hello world!</text>-->
+<!--    </dialog>-->
+<!--    <button type="capsule" class="test-button" value="测试getSimSpn" onclick="testGetSimSpn"></button>-->
+<!--    <button type="capsule" class="test-button" value="测试getSimState" onclick="testGetSimState"></button>-->
+<!--    <button type="capsule" class="test-button" value="测试getSimMessage" onclick="testGetSimMessage"></button>-->
+<!--    <button type="capsule" class="test-button" value="测试getIMEI" onclick="testGetIMEI"></button>-->
+<!--    <button type="capsule" class="test-button" value="测试hasSimCard1" onclick="testHasSimCard1"></button>-->
+<!--    <button type="capsule" class="test-button" value="测试hasSimCard2" onclick="testHasSimCard2"></button>-->
+<!--    <button type="capsule" class="test-button" value="testGetSimCount" onclick="testGetSimCount"></button>-->
+</div>
