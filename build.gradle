@@ -2,17 +2,6 @@
 apply plugin: 'com.huawei.ohos.app'
 apply from: this.file('global.gradle')
 ohos {
-    signingConfigs {
-        release {
-            storePassword rootProject.ext.signConfigs.storePassword
-            keyAlias rootProject.ext.signConfigs.keyAlias
-            keyPassword rootProject.ext.signConfigs.keyPassword
-            signAlg rootProject.ext.signConfigs.signAlg
-            storeFile file(rootProject.ext.signConfigs.storeFile)
-            profile file(rootProject.ext.signConfigs.profile)
-            certpath file(rootProject.ext.signConfigs.cerPath)
-        }
-    }
     compileSdkVersion 7
     supportSystem "standard"
     defaultConfig {
