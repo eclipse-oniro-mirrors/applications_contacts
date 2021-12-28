@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "联系人"
+    },
+    {
+      "name": "dials_name",
+      "value": "电话"
+    },
+    {
+      "name": "mainability_description",
+      "value": "JS_Phone_Empty Feature Ability"
+    }
+  ]
+}
