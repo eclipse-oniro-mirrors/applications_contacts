@@ -423,6 +423,11 @@ export default class ContactsPickerPresenter {
 
   // picker 返回数据
   confirm(contactIdPickerDataMap: Map<number, contact.Contact>, isFinish: boolean = true) {
+    if (!isFinish) {
+      ContactsGlobalThisHelper.GetGlobalThis()
+        .getDefaultUIContext()?.terminateSelfWithResult({resultCode: -1});
+        return;
+    }
     try {
       HiLog.w(TAG, `confirm! isContactsPicker: ${this.isContactsPicker}`);
 
